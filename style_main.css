@@ -50,10 +50,10 @@
 		background-position: center;
 	}
 	.btn_1 {
-		background-image: url('logo_Lit.png');
+		background-image: url('images/logo_Mova.png');
 	}
 	.btn_2 {
-		background-image: url('images/logo_Mova.png');
+		background-image: url('images/logo_Lit.png');
 	}
 	.menu_btn:hover {
 		transform: scale(1.1, 1.1);
