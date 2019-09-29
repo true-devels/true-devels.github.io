@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	* {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+	body {
+		background-color: #101010;
+		font-size: 14px;
+	} 
+	.zno_title {
+		width: 30vw;
+		height: 6em;
+		margin-left: auto;
+		margin-right: auto;
+		background-image: url('images/main.png');
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		margin-top: 6em;
+	}
+	.zno_apps {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		flex-flow: row wrap;
+	}
+	.zno_app {
+		list-style: none;
+		display: flex;
+		flex-flow: row wrap;
+		width: 40vw;
+		height: 17em;
+		align-items: center;
+		justify-content: space-around;
+		margin-top: 6em;
+	}
+	.app_logo {
+		display: flex;
+		width: 17em;
+		height: 17em;
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.lit {
+		background-image: url('images/logo_literature.png');
+	}
+	.hist {
+		background-image: url('images/logo_history.png');
+	}
+	.lang {
+		background-image: url('images/logo_language.png');
+	}
+	.chem {
+		background-image: url('images/logo_chemistry.png');
+	}
+	.biol {
+		background-image: url('images/logo_biology.png');
+	}
+	.dwn_block {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		width: inherit;
+		height: 4em;
+	}
+	.dwn_block li {
+		list-style: none;
+	}
+	.dwn_btn {
+		display: flex;
+		width: 18vw;
+		height: 4em;
+		background-position: center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	.android {
+		background-image: url('images/play.png');
+	}
+	.ios {
+		background-image: url('images/apple.png');
+	}
+</style>
+<body>
+	<main>
+		<div class="zno_title"></div>
+		<div class="zno_apps">
+			<li class="zno_app">
+				<div class="app_logo lit"></div>
+				<ul class="dwn_block">
+					<li><a href="" class="dwn_btn android"></a></li>
+					<li><a href="" class="dwn_btn ios"></a></li>
+				</ul>
+			</li>
+			<li class="zno_app">
+				<div class="app_logo hist"></div>
+				<ul class="dwn_block">
+					<li><a href="" class="dwn_btn android"></a></li>
+					<li><a href="" class="dwn_btn ios"></a></li>
+				</ul>
+			</li>
+			<li class="zno_app">
+				<div class="app_logo lang"></div>
+				<ul class="dwn_block">
+					<li><a href="" class="dwn_btn android"></a></li>
+					<li><a href="" class="dwn_btn ios"></a></li>
+				</ul>
+			</li>
+			<li class="zno_app">
+				<div class="app_logo chem"></div>
+				<ul class="dwn_block">
+					<li><a href="" class="dwn_btn android"></a></li>
+					<li><a href="" class="dwn_btn ios"></a></li>
+				</ul>
+			</li>
+			<li class="zno_app">
+				<div class="app_logo biol"></div>
+				<ul class="dwn_block">
+					<li><a href="" class="dwn_btn android"></a></li>
+					<li><a href="" class="dwn_btn ios"></a></li>
+				</ul>
+			</li>
+		</div>
+	</main>
+</body>
+</html>
